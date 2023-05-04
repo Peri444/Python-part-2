@@ -1,0 +1,13 @@
+class Fib:
+    def ser(self,n):
+        x=-1
+        y=1
+        z=0
+        while z<=n:
+              print(z)
+              x=y
+              y=z
+              z=x+y
+n=int(input())
+s=Fib()
+s.ser(n)
