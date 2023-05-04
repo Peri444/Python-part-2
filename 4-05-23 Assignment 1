@@ -1,0 +1,9 @@
+class Leap:
+    def year(self,n):
+        if n%100!=0 and n%4==0 or n%400==0:
+            print('Leap')
+        else:
+            print('Non-leap')
+n=int(input())
+s=Leap()
+s.year(n)
